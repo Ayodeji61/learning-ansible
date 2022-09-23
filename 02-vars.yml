@@ -1,6 +1,6 @@
 - name: Demo on Variable
   hosts: all
-  var:
+  vars:
     URL = play.example.com
   task:
     - name: Print URL
